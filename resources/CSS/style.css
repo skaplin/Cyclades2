@@ -1,0 +1,87 @@
+@viewport {
+    min-width: 550px;
+    orientation: landscape;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: monospace;
+    font-size: 15px;
+    color: #26478e;
+    background-color: #cccccc;
+}
+
+#loginPage {
+    width: 550px;
+    border: 2px solid #26478e;
+    border-radius: 4px;
+    padding: 5px 5px;
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+}
+
+#regLink {
+    background-color: inherit;
+    text-align: right;
+}
+
+#regLink a{
+    background-color: inherit;
+    font-size: 11px;
+    padding-right: 5px;
+}
+
+.tableBlock {
+    background-color: inherit;
+    display: table;
+    width: 100%;
+}
+
+.tableRow {
+    background-color: inherit;
+    display: table-row;
+}
+
+.tableCell {
+    background-color: inherit;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+.textBox {
+    background-color: inherit;
+    width: 98%;
+    height: 20px;
+    border: 1px solid #000;
+    padding: 1px 4px;
+}
+
+.textBox:focus {
+    outline: 2px solid #26478e;
+}
+
+.checkBox {
+    /*height: 5px;*/
+    /*width: 33%;*/
+}
+
+.header {
+    width: 20%;
+}
+
+.buttonCell {
+    width: 33%;
+    text-align: center;
+}
+
+.button {
+    width: 90%;
+    height: 25px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
